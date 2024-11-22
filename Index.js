@@ -42,7 +42,7 @@ const swaggerOptions = {
 *         description: Regresa un objeto con el resultado de la operacion de alta
 */
 
-app.get('/empleado',(req,res)=>{
+app.get('/',(req,res)=>{
     res.send('Server Express contestando a peticion get')
 })
 
