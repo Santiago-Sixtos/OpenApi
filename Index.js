@@ -16,7 +16,7 @@ const swaggerOptions = {
     version: '1.0.0',
     },
     servers:[
-    { url: "http://localhost:3002" }
+    { url: "http://localhost: ${port}" }
     ],
     },
     apis: [`${path.join(__dirname,"index.js")}`],
@@ -54,5 +54,5 @@ app.get("/api-spec", (req,res)=>{
 })
 
 app.listen(port,()=>{
-    console.log('http://localhost:3002')
+    console.log('http://localhost: ${port}')
 })
