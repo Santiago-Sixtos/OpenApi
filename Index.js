@@ -19,7 +19,7 @@ const swaggerOptions = {
     { url: "http://localhost: ${port}" }
     ],
     },
-    apis: [`${path.join(__dirname,"index.js")}`],
+    apis: [`${path.join(__dirname,"Index.js")}`],
     };
 
 /**
